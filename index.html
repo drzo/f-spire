@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gauge Theory of Cognitive Architectures</title>
+<style>
+  :root {
+    --ink: #1b1b1f;
+    --muted: #5b5b66;
+    --rule: #d8d8e0;
+    --accent: #6a3fd1;
+    --bg-soft: #f7f7fb;
+    --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #fff;
+    line-height: 1.55;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,0.94);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid var(--rule);
+    z-index: 10;
+    padding: 0.5rem 1rem;
+  }
+  nav .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  nav a { color: var(--accent); text-decoration: none; font-size: 0.92rem; }
+  nav a:hover { text-decoration: underline; }
+  .chip {
+    margin-left: auto;
+    background: var(--bg-soft);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 0.15rem 0.7rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .mono { font-family: var(--mono); }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+  header { margin-bottom: 1.5rem; }
+  .eyebrow { display: block; color: var(--muted); font-size: 0.85rem; margin-bottom: 0.4rem; }
+  h1 { font-size: 1.9rem; margin: 0 0 0.5rem; line-height: 1.2; }
+  h2 { font-size: 1.3rem; margin-top: 2.4rem; border-top: 1px solid var(--rule); padding-top: 1.2rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.6rem; }
+  .snum { color: var(--accent); font-weight: 700; margin-right: 0.5rem; }
+  .lede { color: var(--muted); }
+  .eq {
+    font-family: var(--mono);
+    background: var(--bg-soft);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.7rem 0.9rem;
+    margin: 0.8rem 0;
+    overflow-x: auto;
+  }
+  .thm {
+    border-left: 3px solid var(--accent);
+    background: var(--bg-soft);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .thm .tl { display: block; font-weight: 700; margin-bottom: 0.35rem; }
+  .vf { color: #b0392f; font-weight: 600; }
+  .nf { color: #2f6ab0; font-weight: 600; }
+  pre {
+    background: var(--bg-soft);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.8rem 0.9rem;
+    overflow-x: auto;
+  }
+  code {
+    font-family: var(--mono);
+    background: var(--bg-soft);
+    padding: 0.05rem 0.3rem;
+    border-radius: 4px;
+  }
+  .tw { overflow-x: auto; margin: 1rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+  th, td { border: 1px solid var(--rule); padding: 0.45rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: var(--bg-soft); }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 2.5rem; }
+  sup { line-height: 0; }
+</style>
+</head>
+<body>
+
+<nav aria-label="Sections"><div class="row">
+  <a href="#s0">§0 Spine</a>
+  <a href="#s1">§1 Mirror Involution</a>
+  <a href="#s2">§2 Relevance Realization</a>
+  <a href="#s3">§3 1/Ω</a>
+  <a href="#s4">§4 Spire</a>
+  <a href="#appx">A Verification</a>
+  <span class="chip mono">mirim.py 27/27 · spire.py 26/26</span>
+</div></nav>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">The DTESHGNN Living Document · reconstituted 2026-08-28 · extended 2026-09-02</span>
+  <h1>Gauge Theory of Cognitive Architectures</h1>
+</header>
+
+<section id="s0">
+  <h2><span class="snum">§0</span>Reconstitution: The Spine of the Framework</h2>
+  <p><strong>The Core Claim.</strong> The relationship between free trees (A000055) and rooted trees (A000081) — mediated by root selection on a projective boundary — is the universal generative principle underlying cognition, computation, natural selection, and self-referential ontogenesis. The single equation from which the framework unfolds is the autogenetic fixed point</p>
+  <div class="eq">T(x) = x · exp( Σₙ T(xⁿ)/n )</div>
+
+  <h3>The Triadic Core (AAR = Agent–Arena–Relation)</h3>
+  <div class="tw"><table>
+    <tbody>
+    <tr><th>Name</th><th>Spirit</th><th>Selection</th><th>World-aspect</th><th>Mathematical role</th></tr>
+    <tr><td>b9 [proc]</td><td>Daemon</td><td>Orchestration</td><td>Worldline</td><td>B-series rooted trees · time-step integration · localhost</td></tr>
+    <tr><td>j9 [malloc]</td><td>Artifice</td><td>Organization</td><td>Worldmode</td><td>J-surface differentials · dynamical allocation · orgalhost</td></tr>
+    <tr><td>p9 [struc]</td><td>Angel</td><td>Architecture</td><td>Worldview</td><td>P-system membranes · global structural perspective · globalhost</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>The DTE Decomposition</h3>
+  <pre>D(eep) → p9 [struc]  → P-systems as Reservoir Membrane Nests
+T(ree) → b9 [proc]   → B-series as Rooted Ridge Readout Trees
+E(cho) → j9 [malloc] → J-surfaces as Elementary Differential Resonance Echoes</pre>
+  <hr>
+</section>
+
+<section id="s1">
+  <h2><span class="snum">§1</span>The Mirror Involution: Orthogonal Reflections, MIRIM Conjugation, and the Shadow Term</h2>
+
+  <h3>1.1 Two orthogonal mirrors and the Klein four-group of text</h3>
+  <p>A line of text admits exactly two commuting involutions, one per axis of the glyph plane: <strong>σₕ</strong> (left-right reversal) and <strong>σᵥ</strong> (upside-down, the ambigram flip). The four maps {id, σₕ, σᵥ, σₕσᵥ} close under composition, every element is its own inverse, and σₕσᵥ = σᵥσₕ — the group is <strong>Z₂ × Z₂</strong>, the Klein four-group, and it sits at the top of the chain V₄ ◁ A₄ &lt; A₅ that reappears in §4.4. <code>mirim.py</code> checks the composition table directly.</p>
+
+  <h3>1.2 <span class="vf">vert/virt/vort</span> ⊥ <span class="nf">natu/nets/norm</span>: the vertical–horizontal split of the cognitive bundle</h3>
+  <p>Take the principal bundle π: P → B of frames over the arena. The tangent space splits TₚP = Vₚ ⊕ Hₚ, and the two word-families name the two summands, one Winiwarter dimension at a time: <span class="vf">vert/virt/vort</span> tracks the fibre (the vertical, gauge, internal degrees of freedom — what can move without changing the base point) while <span class="nf">natu/nets/norm</span> tracks the connection's horizontal complement (what the world supplies as a frame, a net, a norm). Attention is a choice of horizontal subspace; relevance realization is the connection.</p>
+
+  <h3>1.3 MIRIM: the conjugation operad</h3>
+  <div class="thm"><span class="tl">Lemma · one-way mirror at string level</span>
+  <p>mirror = MIR·ROR with σᵥ(mirror) = ROR·RIM: the palindromic block ROR transmits through reflection intact; MIR reflects into RIM, the frame. One half transmits, one half reflects-with-transformation — the string is a beam splitter, and its r-density is exactly 3/6 = 0.5, the reflectance of the half-silvered pane (lowercase r being the Fresnel amplitude reflection coefficient). The two chambers carry their own port labels: m-<span class="nf">I</span>-r | r-<span class="vf">O</span>-r.</p></div>
+
+  <h3>1.4 The shadow term R′R: Maurer–Cartan and the gauge transformation law</h3>
+  <p>The prime is deliberately bivalent, and both readings land:</p>
+  <p><strong>(a) prime = adjoint.</strong> R′R = R†R, the Gram matrix — the metric a cast's shadow inherits. For a true reflection R†R = 1: a perfect mirror leaves no metric shadow. An oblique or lossy cast has R†R ≠ 1, and the shadow <em>is</em> the record of the distortion.</p>
+  <p><strong>(b) prime = derivative.</strong> For a moving frame R(t), R′R† is the Maurer–Cartan form: skew-symmetric, and physically the instantaneous angular velocity. Under a gauge transformation R → gRg⁻¹, the shadow transforms exactly as a connection: R′R† → g(R′R†)g⁻¹ + g′g⁻¹ — the plaquette-holonomy conjugation law of lattice gauge theory, one loop at a time.</p>
+
+  <h3>1.5 Clipping onto the relevance frame</h3>
+  <p>The cast lands somewhere, and the landing has an industry name on each floor of the stack: softmax temperature, camera frustum, gauge fixing, attentional budget. Each is the same operation — a clip — applied to a different substrate. §4 asks what happens when the clip is iterated and fed by its own output.</p>
+  <hr>
+</section>
+
+<section id="s2">
+  <h2><span class="snum">§2</span>Root Selection is Relevance Realization: The Jaeger Trialectic and the Solvable Mirror</h2>
+  <div class="eq">C ≅ Φ(C), Φ(S) = S × ⌜S⌝ × Ω<sup>S</sup></div>
+
+  <h3>2.1 The cut is root selection</h3>
+  <p>"A world is not received whole. It is cut into significance." A <strong>large world</strong> (Savage's term, adopted by the paper) is prestatable by no frame: features, partitions and relations are indefinite and situation-dependent. A <strong>free tree</strong> (A000055) is the framework's image of that condition — pure undirected relational structure, no privileged vertex, no orientation, no figure/ground. <strong>Relevance realization — delimiting an arena from a large world — is root selection</strong>: choosing the vertex from which every edge acquires direction (toward-root = mattering-gradient), turning the free tree into a rooted tree (A000081), i.e. the world into an arena.</p>
+
+  <h3>2.2 The trialectic, mapped</h3>
+  <p>The paper gives two triads with <strong>no first mover</strong> — a genuinely triadic junction (Thirdness, §0 junction arity: categories 5–6–7), not a composition of dyads. Agent, arena, and the affordance bracket ⟨norm|virt⟩ co-arise; none is prior.</p>
+
+  <h3>2.3 The framing regress and the two fixed points</h3>
+  <p>The paper's regress — <code>frame(frame(frame(…))) → ?</code> — is not climbed in the framework; it is <strong>solved as a fixed point</strong>, and there are exactly two canonical solutions, one per Winiwarter domain: the combinatorial fixed point T(x) = x·exp(Σ T(xⁿ)/n) for the tree domain, and the self-referential fixed point C ≅ Φ(C) for the discrimination domain.</p>
+
+  <h3>2.4 The boundary of the model: Cantor blocks the total mirror; the clip solves it</h3>
+  <p>Φ(S) = S × ⌜S⌝ × Ω<sup>S</sup> contains the discrimination factor Ω<sup>S</sup>. In <strong>Set</strong>, C ≅ Φ(C) would force a point-surjection C ↠ Ω<sup>C</sup>, which Lawvere's fixed-point theorem (the diagonal argument unifying Cantor, Gödel, Tarski) forbids for |Ω| ≥ 2.</p>
+  <div class="thm"><span class="tl">Theorem · the boundary, made precise</span>
+  <p>No object of <strong>Set</strong> can satisfy C ≅ Φ(C) without collapse; the framework's escape is not to abolish the boundary but to <strong>clip</strong> it — evaluate Φ against a bounded, thermodynamically supplied norm (§1.5) rather than against the full unbounded Ω<sup>C</sup>. The clipped iteration stabilizes where the unclipped one diverges; <code>mirim.py</code> checks both behaviours side by side.</p></div>
+
+  <h3>2.5 Isomorphy table: relevance realization across ten disciplines <code>[→PSCC]</code></h3>
+  <div class="tw"><table>
+    <tbody>
+    <tr><th>Discipline</th><th>Large world</th><th>The cut (RR)</th><th>Arena</th><th>Intrinsic norm</th><th>Regress resolution</th></tr>
+    <tr><td>Tree combinatorics</td><td>free tree A000055</td><td>root selection on ∂</td><td>rooted tree A000081</td><td>symmetry/center canonicity</td><td>T(x) = x·exp(Σ T(xⁿ)/n), μ-solution</td></tr>
+    <tr><td>Cognitive science</td><td>the indefinite ecological field</td><td>relevance realization</td><td>the perceived affordance landscape</td><td>opponent-processed salience</td><td>the trialectic fixed point Agent–Arena–Relation</td></tr>
+    <tr><td>Category theory</td><td>the object C prior to any Φ-cut</td><td>choice of a classifying map</td><td>the fixed point C ≅ Φ(C)</td><td>the subobject classifier Ω</td><td>Lawvere's theorem bounds it; the clip realizes it</td></tr>
+    <tr><td>OpenCog / ECAN</td><td>the full AtomSpace</td><td>attention allocation (STI/LTI)</td><td>the attentional focus</td><td>economic rent and stimulus</td><td>the forgetting/echo cycle</td></tr>
+    </tbody>
+  </table></div>
+  <hr>
+</section>
+
+<section id="s3">
+  <h2><span class="snum">§3</span>Cancelling the Self: ⌜S⌝ ⊗ Ω<sup>S</sup> ≅ 1 and the Price of Quotation</h2>
+  <p class="lede">Mid-articulation move: <em>S ≅ Φ(S) = S × ⌜S⌝ × Ω<sup>S</sup> ⟹ ⌜1⌝ ≅ 1/Ω ?</em> Divide the fixed point by itself. If S may be cancelled, then</p>
+  <div class="eq">⌜S⌝ ⊗ Ω<sup>S</sup> ≅ 1 i.e. ⌜S⌝ ≅ Ω<sup>−S</sup> (at S = 1: ⌜1⌝ ≅ 1/Ω)</div>
+  <p>The question is what "divide" means, and the answer splits into three regimes — each one load-bearing.</p>
+
+  <h3>3.1 Where cancellation fails, consciousness fits</h3>
+  <p>In <strong>Set</strong>, S × K ≅ S does <em>not</em> imply K ≅ 1: ℕ × 2 ≅ ℕ by interleaving (Hilbert's hotel). Cancellation fails exactly for infinite — reflexive — S, and this failure is not a defect: <strong>it is the mechanism of §2.4</strong>. A reflexive state-space absorbs the factor ⌜S⌝ × Ω<sup>S</sup> without that factor being trivial; the room for self-encoding is created by the very infinity that breaks division. Finite minds cannot cancel; infinite ones need not. The fixed point lives in the gap.</p>
+
+  <h3>3.2 Where cancellation succeeds: the conservation law of self-reference</h3>
+  <p>Pass to any multiplicative measure — cardinality, Euler characteristic, generating function. If |S| is invertible, division is legal and forces</p>
+  <div class="eq">|⌜S⌝| = |Ω|<sup>−|S|</sup></div>
+  <p>The Kraft–Shannon identity Σ 2<sup>−ℓ</sup> = 1 for a complete prefix code is the finite, computable shadow of this conservation law: a complete self-describing code spends its whole budget and no more.</p>
+
+  <h3>3.3 The object 1/Ω exists — one level up</h3>
+  <div class="tw"><table>
+    <tbody>
+    <tr><th>Setting</th><th>What 1/Ω is</th><th>Reading</th></tr>
+    <tr><td>Star-autonomous / linear logic</td><td>the dual Ω<sup>⊥</sup> (linear negation)</td><td>encoding is the <em>refutation space</em> of discrimination; metacognition and attention are dual line bundles whose pairing is trivial — a polarization</td></tr>
+    <tr><td>Picard groupoid</td><td>the inverse of an invertible object</td><td>⌜·⌝ and Ω<sup>(·)</sup> are inverse bundles: twisting by one untwists the other</td></tr>
+    <tr><td>Groupoid cardinality (Baez–Dolan)</td><td><strong>B(ℤ₂) = 𝟙 ⫽ ℤ₂, cardinality ½</strong></td><td>divide the point by the De Morgan mirror</td></tr>
+    </tbody>
+  </table></div>
+  <hr>
+</section>
+
+<section id="s4">
+  <h2><span class="snum">§4</span>The Faustian Spire: Convergent Reciprocal Narrowing, Terminal Differentiation of the Medium, and the Reciprocal Opening</h2>
+  <div class="eq">P<sub>t+1</sub> = N<sub>t</sub>(P<sub>t</sub>), dim P<sub>t+1</sub> ≤ dim P<sub>t</sub> · O(P) = P ∪ ρ(P) ∪ B(P)</div>
+  <p class="lede"><strong>The structural correspondence.</strong> The <em>Faustian Spire</em> — Dan's name for convergent reciprocal narrowing ending in terminal differentiation of the medium — is <strong>the clip of §1.5 iterated without re-pricing</strong>: the relevance frame chosen at step t is fed back as the norm that prices step t+1, until the medium can express only the frame that chose it. Its countervail is not the abolition of clipping but a second operator, the reciprocal opening, whose admissibility is decided by one bit per state — the fibre tag of a ℤ₂ double cover — and whose price is the framework's recurring ½. The section fixes both operators, gives the terminal limit an operational test (grammar failure, not goal failure), identifies the cosmogonic Return ⊙<sup>⊙</sup> = ○ with §3's cancellation law, and proves on the framework's own 60-state object that the exploratory "twisted lift" exists for the star grammar of A₅ and not for the convex one. Verifier <code>spire.py</code>, 26/26.</p>
+
+  <h3>4.1 The Spire as a composite operator</h3>
+  <p>A possibility field is a pair (p, m) on K frames: <strong>p</strong> the distribution over frames (the product — what is being selected), <strong>m</strong> the positive weight per frame (the <em>medium</em> — the production grammar that makes a frame cheap or expensive to express). The frames carry an incidence graph G (what may branch into what) and a fixed-point-free involution c (each frame's complement, its antipode on the other sheet). The four operations the Spire composes each land on one cosmogonic glyph and one AAR slot:</p>
+  <div class="tw"><table>
+    <tbody>
+    <tr><th>Operation</th><th>Glyph</th><th>Slot</th><th>Winiwarter</th><th>In the operator</th></tr>
+    <tr><td>Distinction</td><td>○ → ⊙</td><td>p9 [struc]</td><td>∫.2.x</td><td>a centre is drawn: argmax of a whisper of asymmetry in p</td></tr>
+    <tr><td>Reciprocal coupling</td><td>⊙ ⊗ ⊙</td><td>j9 [malloc]</td><td>∫.4.c</td><td>selection reinforces itself and is reinforced by the medium: p<sup>1+β</sup> · m<sup>κ</sup></td></tr>
+    <tr><td>Repeated projection</td><td>(⊕<sub>t</sub>) ⊗ (⊕<sub>t</sub>) collapsed to one branch</td><td>b9 [proc]</td><td>∫.5.t</td><td>the alternation operator applied with only one admissible beat: N, N, N, …</td></tr>
+    <tr><td>Extension</td><td>⊛</td><td>p9 [struc]</td><td>∫.6.x</td><td>the medium is rebuilt around the selection: m′ = (1−δ)m + γp′</td></tr>
+    </tbody>
+  </table></div>
+  <div class="eq">N: p′ ∝ p<sup>1+β</sup> · m<sup>κ</sup> · e<sup>ηf</sup>, m′ = (1−δ) m + γ p′</div>
+  <div class="thm"><span class="tl">Proposition · the Spire is a projection and its limit is the medium's terminal differentiation</span>
+  <p>Take dim P := e<sup>H(p)</sup>, the effective dimension of the reachable field. Under N with fixed payoff f, dim P is non-increasing, ΔH → 0, and m converges to a vertex of the simplex (spire.py checks 1–3: ≈22.8 → 1.000, max m-share 1.0000). The medium's convergence to a vertex is what "terminal differentiation of the medium" means: not that an actor has chosen a goal, but that the grammar can now express one family of futures. In cosmogonic terms the terminal state is <strong>Forgetting ∞</strong>, and §1.4 says what is forgotten: the shadow term. A connection is never a tensor; the Spire treats its chosen gauge as if it were — it sets g<sup>−1</sup>dg = 0 and mistakes the section for the bundle.</p></div>
+  <p><strong>Coupling is ambivalent, and the sign is the whole story.</strong> With β &gt; 0 the coupling ⊙ ⊗ ⊙ tightens the tunnel; with β &lt; 0 it is opponent processing and holds the field open (check 12: dim P ≈1.00 versus ≈24 under otherwise identical dynamics, once the payoff bias is removed to isolate the coupling term). This is the K₄ opponent metric of §0 read as a sign: the Basal/Limbic tetrad is the framework's built-in β &lt; 0. It is also the correct placement of the biology: Notch–Delta lateral <em>inhibition</em> diverges neighbouring fates and is β &lt; 0 — the countervail; lateral <em>induction</em> is β &gt; 0 — the Spire. Feedback topology, not reciprocity, decides.</p>
+
+  <h3>4.2 The terminal limit: grammar failure, not goal failure</h3>
+  <p>The clip of §1.5 — softmax, frustum, gauge fixing, attentional budget — is one application of N with the norm supplied from outside (§2.4: the metric on K₄ is thermodynamic input). The Spire is the clip iterated with the norm <em>replaced by its own output</em>: m′ depends on p′, so the affordance bracket ⟨norm|virt⟩ of §2.2 is evaluated against a norm that the previous evaluation wrote. The trialectic's holonomy — each circuit returns to a changed frame — is still present, but the change is always in the same direction: curvature with a fixed sign. That is the precise sense in which the Spire is "reciprocal": the vort of §1.2 has become a drift.</p>
+  <div class="thm"><span class="tl">Definition · the two failures, made operational</span>
+  <p><strong>Goal failure</strong>: ⟨p, f⟩ is poor although argmax f lies inside the ε-support of m — the tactic is expressible and merely wrong; feedback η repairs it. <strong>Grammar failure</strong>: argmax f lies outside the ε-support of m — the adequate tactic is not expressible in the remaining production rules, and no feedback η can move mass to it because the multiplicative update prices it at m<sup>κ</sup> ≈ 0. The terminal limit of the Spire is the moment goal failure can no longer be distinguished from grammar failure <em>from inside</em>: every anomaly is absorbed by further narrowing. Checks 4–5 exhibit the lock: after the payoff optimum jumps to the other sheet, the N-only field holds ⟨p, f⟩ ≈ 0.000 for the rest of the horizon while its detector reports grammar failure at every beat.</p></div>
+  <p>The detector is the framework's meta-cognitive layer with its Aion names — <em>frame-lock detection</em>, <em>infinite-regress detection</em> — and it has a clean signature: vanishing information gain (ΔH → 0) coinciding with rising anomaly cost. A system that can report only goal failure is inside its Spire; the ability to report grammar failure is the first countervail, and it is a report about the medium, not about the product.</p>
+
+  <h3>4.3 Echo, Return, and the price of the fibre</h3>
+  <p>Reopening needs information that the projection did not destroy. If repeated projection has produced a quotient π: X → X/∼, a section (a retained tag per orbit) or a lift is required; without it, quotienting is irreversible. The Echo is the operator that supplies the complement: for each frame, its antipode on the other sheet. The reciprocal opening is</p>
+  <div class="eq">O(P) = P ∪ ρ(P) ∪ B(P), ρ = complement injection (needs the tag), B = bounded branching along G</div>
+  <p>with two conditions the source reconstruction stated but did not enforce: O is <strong>budgeted</strong> — the mass leaving the incumbent equals a declared ε<sub>ρ</sub> + ε<sub>B</sub> and nothing more (check 10) — and O <strong>acts on the medium</strong> m, not only on p (check 11). The second condition is the one that matters: reopening the product while the grammar stays terminally differentiated re-locks within one beat. Critical-period reopening is a reduction of the stabilising constraint, not the regrowth of every pruned synapse — the framework's version is that O writes λ of its opening back into m.</p>
+  <div class="thm"><span class="tl">Theorem · Return is §3, and the tag costs ½</span>
+  <p>The cosmogonic Return ⊙<sup>⊙</sup> = ○ — the distinction applied to itself dissolves to the void — is the conservation law ⌜S⌝ ⊗ Ω<sup>S</sup> ≅ 1 of §3.2 in the cosmogonic vocabulary: self-application cancels. It is not annihilation; it is the fixed point re-solved with the shadow term restored. The retained fibre tag is exactly one bit — H(lift) − H(base) = log 2 for uniform states (check 26) — and its groupoid measure is |B(ℤ₂)| = ½ (§3.3): <strong>the price of keeping the quotient liftable is the half-silvered constant</strong>. Compression is safe only when this bit has not been spent, and checks 6–7 show the two outcomes: with the tag retained, N·N·O recovers the shifted optimum within one N·N·O cycle; with the tag destroyed, the same schedule never recovers within the horizon, because B can only crawl the incidence graph the Spire has already priced to zero.</p></div>
+  <p>The sheet label itself is a gauge choice — which representative you keep per orbit — and only the <em>holonomy</em> around a cycle in the quotient is invariant. An even-holonomy cycle lifts to two disjoint closed walks however carefully the sheet bits were kept (check 23). The Echo therefore retains the tag; it cannot manufacture a twist. Where the twist comes from is the next subsection.</p>
+
+  <h3>4.4 The twisted lift and the A₅ dichotomy</h3>
+  <div class="thm"><span class="tl">Theorem · ℤ₂ voltage lift</span>
+  <p>Let a base cycle of length n carry ℤ₂ voltages. Its lift closes after n steps if the holonomy is even and after 2n steps if it is odd, in which case the single lifted walk visits both sheets (check 13, 300 random trials). An odd-holonomy Hamiltonian cycle of an n-orbit quotient is therefore one closed 2n-step traversal of every state on both sheets — the cycle-extending countervail: exploitation of the quotient template plus an explicit traversal of the complement, closing once.</p></div>
+  <p><strong>The framework's own instance.</strong> The 60 darts (v,w) of the icosahedron are the vertices of the truncated icosahedron and form a torsor of A₅ — the top of §1.1's chain V₄ ◁ A₄ &lt; A₅. The antipode (v,w) ↦ (−v,−w) is a fixed-point-free automorphism; its quotient has 30 orbits and is cubic (checks 14–17). The dart reversal ρ: (v,w) ↦ (w,v) — the dagger of §1.1 — commutes with the antipode and together they realise the Klein four-group on the darts, <em>but ρ is not a graph automorphism</em>: it exchanges tails for heads, so it is not a covering involution of this graph (check 19). The double cover is the antipodal one.</p>
+  <div class="tw"><table>
+    <tbody>
+    <tr><th>Grammar on the same 60 states</th><th>Cayley presentation</th><th>Polyhedron</th><th>Hamiltonian cycles of the 30-orbit quotient</th><th>Holonomy</th><th>Lift</th></tr>
+    <tr><td>convex {3,5}</td><td>Cay(A₅; a⁵ = b² = (ab)³ = 1)</td><td>truncated icosahedron (≅ the dart graph, check 21)</td><td>20</td><td><strong>all even</strong></td><td>2 × 30: no twisted lift</td></tr>
+    <tr><td>star {5,5/2}</td><td>Cay(A₅; a⁵ = b² = (ab)⁵ = 1)</td><td>truncated great dodecahedron</td><td>20</td><td><strong>all odd</strong></td><td>1 × 60: every cycle is a twisted lift</td></tr>
+    </tbody>
+  </table></div>
+  <p>Same state set, same generator orders, same count, opposite parity (checks 20, 22–25). <strong>The twisted lift is a property of the incidence grammar, not of the states</strong> — which is exactly the Spire's lesson stated on a finite group: what the medium can express decides whether the other sheet is reachable in one closed traversal, and the medium here is the choice of relator. The relator is the face: (ab)³ is the 3-fold face of the convex polytope, (ab)⁵ the 5-fold face of the star. In §0's {3,5}/{5,3} duality the 3-fold is the forward pass and the 5-fold the backward pass; the exploratory traversal of the complement therefore lives on the <strong>5-fold, backward-pass side</strong> — dreaming, in the framework's double cover — but it is reached through the relator, not through the dagger, because the dagger does not cover. The Aion phase "explore the other sheet" has a location: it is the star grammar's holonomy.</p>
+
+  <h3>4.5 Alternation: the echobeat as schedule</h3>
+  <p>The Spire is (⊕<sub>t</sub>) ⊗ (⊕<sub>t</sub>) with one beat suppressed. Restoring the alternation gives the schedule that keeps every local Spire provisional; the minimal one is <strong>N·N·O</strong>, one echobeat of §0's 3 × 12 — two beats of convergence, one of opening, at 120° offset — and under it dim P never returns to 1 (check 8) while payoff recovers to within its shifted optimum through the shift. The eight-phase cycle of the source reconstruction is this schedule unrolled: phases 1 and 8 are N, phase 2 is the detector, phases 3–6 are O decomposed (Echo, Return, ρ, the other-sheet traversal), phase 7 is re-normalisation. The mature form is not an inverted Spire but the forest the Core Claim already names: rooted trees drawn and redrawn on a free tree whose other vertices were never deleted. After the shift, the field re-converges on the complement of the old tip (check 9: 0 → 12) — <strong>the top of the old hierarchy is the base of the new one</strong>, and the base was there all along as the fibre.</p>
+
+  <h3>4.6 Isomorphy table: the Spire and its countervail across eleven disciplines <code>[→PSCC]</code></h3>
+  <div class="tw"><table>
+    <tbody>
+    <tr><th>Discipline</th><th>Spire N (clip iterated)</th><th>Medium m (what differentiates)</th><th>Terminal limit</th><th>Fibre tag (the ½ bit)</th><th>Opening O / twist</th></tr>
+    <tr><td>Tree combinatorics</td><td>root re-selected by the previous root's gradient</td><td>the rooted tree's orientation</td><td>every edge points one way; the free tree forgotten</td><td>the unrooted tree kept beneath the rooted one</td><td>re-rooting on the projective boundary</td></tr>
+    <tr><td>Gauge theory</td><td>gauge fixing fed back as the metric</td><td>the section</td><td>g<sup>−1</sup>dg set to zero; section mistaken for bundle</td><td>the fibre coordinate</td><td>parallel transport around a loop of odd holonomy</td></tr>
+    <tr><td>Lattice gauge (nets)</td><td>maximal-tree gauge re-chosen along the flow</td><td>the reduced links</td><td>all plaquettes trivialised</td><td>the link voltage</td><td>Wilson loop of nontrivial holonomy</td></tr>
+    <tr><td>Group theory</td><td>a Cayley grammar S</td><td>the relator (ab)<sup>k</sup></td><td>k = 3: all quotient cycles two-sided</td><td>the antipodal orbit's second element</td><td>k = 5: every quotient cycle one-sided, lift of length 2n</td></tr>
+    <tr><td>Transformers</td><td>softmax whose temperature is set by its last output</td><td>the attention head's key space</td><td>hard argmax; mode collapse</td><td>a held-out complement head</td><td>temperature schedule; opponent heads</td></tr>
+    <tr><td>Autodiff / neuro</td><td>gradient clipping that rewrites its own threshold</td><td>the update step's support</td><td>dead units; frozen circuit</td><td>the transposed (dreaming) pass ρ</td><td>backward pass re-enters pruned directions</td></tr>
+    <tr><td>Domain theory</td><td>Scott-continuous restriction iterated</td><td>the realised discriminations Ω<sub>rel</sub><sup>S</sup></td><td>Ω<sub>rel</sub> = 1: nothing left to discriminate</td><td>the bit Ω = {⊤,⊥} itself</td><td>widening the realised subobject</td></tr>
+    <tr><td>Developmental biology</td><td>lateral induction (β &gt; 0); Waddington descent</td><td>the gene-regulatory landscape</td><td>terminally differentiated valley</td><td>epigenetic memory of the multipotent state</td><td>lateral inhibition (β &lt; 0); dedifferentiation, transdifferentiation</td></tr>
+    <tr><td>Neural development</td><td>activity-dependent pruning — N on G itself</td><td>the synaptic incidence graph</td><td>critical-period closure; molecular brakes</td><td>silent synapses; latent plasticity</td><td>reduced constraint reopens plasticity, not every synapse</td></tr>
+    <tr><td>OpenCog / ECAN</td><td>STI importance-spread that rewrites its own budget</td><td>the attentional-focus boundary</td><td>one atom holds all STI; forgetting agent has nothing to forget</td><td>LTI (the long-term tag beneath short-term importance)</td><td>rent and stimulus schedules; the forgetting/echo cycle</td></tr>
+    <tr><td>Institutions / law</td><td>an instrument built on its author's own prior act and enforced by that act's consequences</td><td>the system of record</td><td>a demand that the medium can no longer satisfy — impossibility presented as refusal</td><td>the retained audit trail; contemporaneous record</td><td>self-application: the instrument tested against its origin returns to void (⊙<sup>⊙</sup> = ○)</td></tr>
+    </tbody>
+  </table></div>
+  <p>Two rows deserve a sentence. The <strong>neural</strong> row is the Spire acting on the medium directly — pruning removes edges of G — and is therefore the cleanest biological instance of terminal differentiation <em>of the medium</em>; the source reconstruction filed it under generic narrowing. The <strong>institutional</strong> row is the case-algebra reading kept in the casfilorig project: an ex parte order obtained by presenting a self-caused impossibility as a refusal is a Spire whose tip cannot be used as a boundary for further extension, because self-application returns it to ○ — void ab initio is the Return operator's legal name.</p>
+
+  <h3>4.7 Forward connections</h3>
+  <p>(i) The ECAN row closes with §2.5's: economic attention is the clip, LTI is the fibre tag, and the Cognitive Hub bridge should expose the grammar-failure detector as an AtomSpace predicate — "adequate atom outside the attentional support" — so that the hub can tell goal failure from grammar failure across agents. (ii) The A₅ dichotomy asks for the general statement: for which Cayley grammars of which groups is every Hamiltonian cycle of the antipodal quotient one-sided? The (2,3,5)/(2,5,5) pair suggests the answer depends on the relator's order modulo the sheet, i.e. on the parity of the face. (iii) The source reconstruction's DNA-384 carrier (sixty-state profile, thirty-orbit quotient, "verified twisted lift") is not in the corpus available to this articulation; its claim is now a checkable one — name the incidence graph, and check 23–25's search decides it. (iv) The <code>[→PSCC]</code> rows above add a sixth column to the Periodic System: for each coordinate, its Spire (the coordinate iterated on itself) and its countervail. (v) The echobeat N·N·O is a discrete time crystal of the possibility field: period-3 alternation as the ground state that prevents ∞.</p>
+  <hr>
+</section>
+
+<section id="appx">
+  <h2><span class="snum">A</span>Verification</h2>
+  <p><code>mirim.py</code> (companion file) machine-checks the load-bearing claims: the Klein four-group law and the {MOM, WOW} orbit; mirror(mirror) = ROR+RIM and MIRIM's palindromy; conjugation preserving spectra and (M†RM)† = M†RM; skewness of R′R† for moving frames (the shadow is angular velocity); lattice gauge transformation conjugating plaquette holonomy; the Jordan center of the MIRIM path; the Euler-transform recurrence reproducing A000081 = 1, 1, 2, 4, 9, 20, 48, 115, 286, 719; the Cantor blow-up of the unclipped Φ-iteration versus stabilization of the clipped one; the softmax temperature limits (half-silvered ↔ uniform, silvered ↔ argmax); and §3's three regimes — failure of cancellation via the interleaving bijection ℕ ≅ ℕ×2, the Kraft–Shannon identity Σ 2<sup>−ℓ</sup> = 1 for complete codes, and the groupoid cardinality |B(ℤ₂)| = ½. Current run: <strong>27/27 checks pass</strong>.</p>
+  <p><code>spire.py</code> (companion file to §4) machine-checks: monotonicity of dim P = e<sup>H</sup> under N and convergence of the medium to a simplex vertex; the saturation detector; lock-in after a payoff shift and its classification as grammar failure; recovery under N·N·O with the fibre tag retained versus non-recovery with it destroyed; the budget and medium-action of O; the sign-ambivalence of coupling; the ℤ₂ voltage-lift theorem (300 random cycles); the 60 icosahedral darts with their antipodal automorphism and non-automorphic dagger; the isomorphism of the dart graph with Cay(A₅; a⁵=b²=(ab)³=1); exhaustive enumeration of the Hamiltonian cycles of both antipodal quotients — 20 all even for the convex grammar, 20 all odd for the star grammar Cay(A₅; a⁵=b²=(ab)⁵=1) — with the 60-step lift walked explicitly; and the one-bit / ½ cost of the fibre tag. Current run: <strong>26/26 checks pass</strong>.</p>
+  <p>Both verifiers are pure Python standard library and can be run directly: <code>python3 mirim.py</code> and <code>python3 spire.py</code>.</p>
+</section>
+
+<footer>
+  <p>Gauge Theory of Cognitive Architectures · DTESHGNN living document, restart lineage 2026-08-28 · §1–§3 formalized from Dan's mirror-involution, trialectic, and cancellation insights · §4 from his Faustian Spire (convergent reciprocal narrowing) · companion verifiers <span class="mono">mirim.py</span>, <span class="mono">spire.py</span> · Periodic System companion pending restoration.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
